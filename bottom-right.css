@@ -1,0 +1,108 @@
+.segment-bottom-right {
+  height: 722px;
+  width: 60vw;
+  bottom: 240px;
+  right: 0px;
+  position: absolute;
+  background-color: #CFC9BD;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.fitness-box, .website-box, .logo-box, .card-box {
+  position: absolute;
+  height: 330px;
+  width: 580px;
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-left: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.fitness-box:hover {
+  transform: scale(1.05);
+}
+
+.website-box:hover {
+  transform: scale(1.05);
+}
+
+.card-box:hover {
+  transform: scale(1.05);
+}
+
+.logo-box:hover {
+  transform: scale(1.05);
+}
+
+.website-box{
+  top: 24px;
+  left: 24px;
+}
+
+.logo-box {
+  top: 24px;
+  right: 24px;
+}
+
+.card-box{
+  bottom: 24px;
+  left: 24px;
+}
+
+.fitness-box {
+  bottom: 24px;
+  right: 24px;
+}
+.website-icon, .card-icon {
+  height: 90px;
+  margin-right: 60px;
+}
+
+.fitness-icon {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.logo-icon {
+  width: 130px;
+  margin-right: 60px;
+}
+
+
+.text-box {
+  width: 540px;
+  font-size: 20px;
+  text-align: left;
+  color: #918A7A;
+  margin: 0px;
+}
+
+.subheading {
+  font-size: 40px;
+  color: #918A7A;
+  text-align: center;
+}
+
+.subheading-fitness {
+  font-size: 30px;
+  color: #918A7A;
+}
+
+.icon-and-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.icon-and-heading-fitness {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
